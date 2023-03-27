@@ -1,6 +1,6 @@
 {
   "extends": "ts-config-single-spa",
-  "files": ["src/gmbt-single-spa-root-config.ts"],
+  "files": ["src/gmbt-single-spa-poc-root-config.ts"],
   "compilerOptions": {
     "declarationDir": "dist"
   },

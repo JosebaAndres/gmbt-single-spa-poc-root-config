@@ -6,7 +6,7 @@ module.exports = (webpackConfigEnv, argv) => {
   const orgName = "gmbt-single-spa";
   const defaultConfig = singleSpaDefaults({
     orgName,
-    projectName: "root-config",
+    projectName: "poc-root-config",
     webpackConfigEnv,
     argv,
     disableHtmlGeneration: true,
