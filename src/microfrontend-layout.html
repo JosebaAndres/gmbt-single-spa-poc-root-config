@@ -16,10 +16,18 @@
   </route>
 
   -->
-
+  <nav>
+    <application name="@gmbt-single-spa/poc-nav"></application>
+  </nav>
   <main>
     <route default>
-      <application name="@single-spa/welcome"></application>
+      <div>TODO: Dashboard</div>
+    </route>
+    <route path="A">
+      <application name="@gmbt-single-spa/poc-page-a"></application>
+    </route>
+    <route path="B">
+      <application name="@gmbt-single-spa/poc-page-b"></application>
     </route>
   </main>
 </single-spa-router>
